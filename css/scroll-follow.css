@@ -1,0 +1,11 @@
+#right-scroll-follow {
+	position: absolute;
+	width: 460px;
+	height:1000px;
+	margin: 0px;
+	padding: 0px;
+	background: #eee;
+	border: 1px solid #333;
+	right: 0px;
+}
+
