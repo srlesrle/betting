@@ -17,9 +17,9 @@ class MY_Log extends CI_Log {
             $message .= $level.' - '.date($this->_date_fmt). ' --> '.$msg."\n";
 
             $this->CI =& get_instance();
-            $to = $this->CI->config->item('dakanadaka@gmail.com');
+            $to = $this->CI->config->item('xxxx@gmail.com');
             $from_name = $this->CI->config->item('Webmaster Error fenom');
-            $from_address = $this->CI->config->item('webmaster@fenomenalno.com');
+            $from_address = $this->CI->config->item('xxxx@gmail.com');
 
             $subject = 'An error has occured';
             $headers = "From: $from_name <$from_address>" . "\r\n";
