@@ -160,7 +160,7 @@ class Signup extends CI_Controller {
 		$this->load->language('emails');
 		
 		$this->load->library('email', array('mailtype' => 'html'));
-		$this->email->from('webmaster@fenomenalno.com', $this->lang->line('email_from_WYM'));
+		$this->email->from('xxxx@gmail.com', $this->lang->line('email_from_WYM'));
 		$this->email->to($user->email);
 		$this->email->subject($this->lang->line('email_send_verification_subject'));
 		$message  = $this->lang->line('email_hi_user' , $user->fullname);
