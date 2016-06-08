@@ -1,9 +1,9 @@
 		<?php
-                $to      = 'dakasadaka@gmail.com';
+                $to      = 'xxxx@gmail.com';
                 $subject = 'db error';
                 $message = $heading .' <br />'. $message;
-                $headers = 'From: webmaster@fenomenalno.com' . "\r\n" .
-                'Reply-To: webmaster@fenomenalno.com' . "\r\n" .
+                $headers = 'From: xxxx@gmail.com' . "\r\n" .
+                'Reply-To: xxxx@gmail.com' . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
 
                 mail($to, $subject, $message, $headers);
