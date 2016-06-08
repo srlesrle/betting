@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
-	<title><?php echo (isset($title) ? $title .' | ' : '');?>  Fenomenalno</title>
+	<title><?php echo (isset($title) ? $title .' | ' : '');?>  domainname</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css" media="screen" />
 	<style type="text/css">
@@ -153,16 +153,13 @@
 					</script>
 				</div>
 				<div class="span3">
-					<h2>30 eura svaki mjesec</h2>
-					<p>prvi na tabeli svakog prvog i osvajate nagradu!</p>
-					<p>Ako ste osvojili nagradu javite se na webmaster @ fenomenalno.com i javite nam paypal email ili moneybookmakers email</p>
 				</div>
 			</div>
    <?php } else { 
    //}?>
 	<div class="row-fluid">
 		<div class="span9">
-		<h1>Osvoji svaki mjesec &euro;30!</h1>
+		<h1>test</h1>
 		<h2>Sta treba da uradim? Pogodite rezultate utakmica, besplatno kla&#273;enje.</h2>
 		<h1>Na kraju mjeseca biti prvi na tabeli</h1>
 		</div>
