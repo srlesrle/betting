@@ -252,17 +252,17 @@ class Login extends CI_Controller {
 		$this->load->language('emails');
 		$config = Array(
     			'protocol' => 'smtp',
-    			'smtp_host' => 'ssl://smtp.googlemail.com',
+    			'smtp_host' => 'ssl://smtp.googlemail.com',
     			'smtp_port' => 465,
-    			'smtp_user' => 'webmaster@fenomenalno.com',
-    			'smtp_pass' => 'osjecani1974',
+    			'smtp_user' => 'xxxx@gmail.com',
+    			'smtp_pass' => 'password',
     			'mailtype'  => 'html', 
     			'charset'   => 'iso-8859-1'
 			);
 		$this->load->library('email', $config);
 		$this->email->set_newline("\r\n");
 		
-		$this->email->from('webmaster@fenomenalno.com', my_lang('email_from_WYM'));
+		$this->email->from('', my_lang('email_from_WYM'));
 		$this->email->to($user->email);
 		$this->email->subject(my_lang('email_send_recovery_subject'));
 		/*$message  = my_lang('email_hi_user' , $user->fullname);
